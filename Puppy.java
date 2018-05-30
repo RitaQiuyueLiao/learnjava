@@ -12,7 +12,7 @@ public class Puppy{
 
     public int getAge(){
 
-        Syetem.out.println("小狗的年龄是："+ puppyAge);
+        System.out.println("小狗的年龄是："+ puppyAge);
         return puppyAge;
 
     }
@@ -21,6 +21,6 @@ public class Puppy{
          Puppy myPuppy= new Puppy("多多");
          myPuppy.setAge(3);
          myPuppy.getAge();
-         System.out.prinln("（方法二）小狗的年龄是："+ myPuppy.puppyAge);
+         System.out.println("（方法二）小狗的年龄是："+ myPuppy.puppyAge);
     }
 }
