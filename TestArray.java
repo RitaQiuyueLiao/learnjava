@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class TestArray{
     public static void main(String[] args){
 
@@ -34,7 +36,13 @@ public class TestArray{
             }
         }
         System.out.println("The Min number is: "+ Min);
-    
+
+        
+      //Add current date and time
+
+        Date date = new Date();
+        System.out.println(date.toString());
     }
 
 }
+
